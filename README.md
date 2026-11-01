@@ -93,7 +93,8 @@ Every tunnel gets its own `10.77.N.0/30` subnet, network interface and UDP port,
 One command, on **both** servers:
 
 ```bash
-sudo bash -c "$(curl -sL https://raw.githubusercontent.com/CIAUB/C-Tunnel/main/install.sh)"
+
+sudo bash -c "$(curl -sL https://raw.githubusercontent.com/mohammad051/C-Tunnel/main/install.sh)"
 ```
 
 The installer always installs the latest [release](https://github.com/CIAUB/C-Tunnel/releases/latest).
@@ -109,7 +110,7 @@ To update, choose **Update** in the menu or run the install command again. Runni
 Without a version, the installer selects the latest stable GitHub release and excludes drafts and pre-releases. To install a specific version:
 
 ```bash
-sudo bash -c "$(curl -sL https://raw.githubusercontent.com/CIAUB/C-Tunnel/main/install.sh)" v0.2.1
+sudo bash -c "$(curl -sL https://raw.githubusercontent.com/mohammad051/C-Tunnel/main/install.sh)" v0.2.1
 ```
 
 `bash install.sh v0.2.1` and `CTUNNEL_VERSION=v0.2.1` are also supported. An explicit version argument takes precedence over the environment variable.
